@@ -671,11 +671,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 2
-  cloudProjectId: 
+  cloudProjectId: 5fb291f5-90fe-4d39-9d4e-9dffb49c5002
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: UofM
+  organizationId: ismayorga
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
