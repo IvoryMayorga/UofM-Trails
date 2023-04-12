@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ghost
+  - camB
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Minimap
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 1898247027
+    locked: 0
+  - name: WorldObjects
+    uniqueID: 2082392059
+    locked: 0
+  - name: Items
+    uniqueID: 3482235521
+    locked: 0
+  - name: Squares
+    uniqueID: 2878613791
+    locked: 0
+  - name: Box
+    uniqueID: 4169251087
+    locked: 0

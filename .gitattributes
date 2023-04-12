@@ -1,0 +1,2 @@
+*.tmx filter=lfs diff=lfs merge=lfs -text
+*.tmx.NBXuPC filter=lfs diff=lfs merge=lfs -text
