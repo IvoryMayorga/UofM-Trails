@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class minimap : MonoBehaviour
+public class MapMode : MonoBehaviour
 {
-    
     public int currentSceneIndex;
 
-    public void MiniMap()
+    public void mapMode()
     {
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         PlayerPrefs.SetInt("SavedScene", currentSceneIndex);

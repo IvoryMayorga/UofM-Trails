@@ -30,7 +30,7 @@ public class CameraDrag : MonoBehaviour
         {
             Vector3 difference = origin - mainCamera.ScreenToWorldPoint(Input.mousePosition);
  
-            print("origin " + origin + " newPosition " + mainCamera.ScreenToWorldPoint(Input.mousePosition) + "differnce"+ difference);
+            print("origin " + origin + " newPosition " + mainCamera.ScreenToWorldPoint(Input.mousePosition) + " difference "+ difference);
            
             mainCamera.transform.position = ClampCamera(mainCamera.transform.position + difference);
            

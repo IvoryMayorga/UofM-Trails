@@ -32,7 +32,7 @@ public class MyEventTriggerOnEnter : MonoBehaviour
         }
         else
         {
-            print("myEventTriggerOnEnter Activated. Triggering" + myEventsEnd);
+            print("myEventTriggerOnEnter Activated. Triggering " + myEventsEnd);
             myEventsEnd.Invoke();
         }
 

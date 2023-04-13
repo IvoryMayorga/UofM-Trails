@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/main.unity
     guid: 99fde1fb8d0a12c489b2e9ea45caf3b2
   - enabled: 1
-    path: Assets/Scenes/minimap.unity
+    path: Assets/Scenes/mapmode.unity
     guid: 40e83c4af77c58743a38761bf4139e86
   m_configObjects: {}

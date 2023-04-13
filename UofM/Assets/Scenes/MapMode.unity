@@ -603,6 +603,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 715951673}
+  - {fileID: 1050221580}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -975,8 +976,7 @@ Transform:
   m_LocalPosition: {x: 689.2378, y: 317.3885, z: -25.376415}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1050221580}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1195,12 +1195,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1050221579}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -645.6434, y: -291.9248, z: 25.376415}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 70.611916, y: 53.83097, z: 10.149794}
   m_LocalScale: {x: 1491.2496, y: 800.2658, z: 307.42627}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 537164956}
+  m_Father: {fileID: 430795163}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1050221582
@@ -1343,6 +1343,9 @@ MonoBehaviour:
           m_StringArgument: BN
           m_BoolArgument: 0
         m_CallState: 2
+  myEventsEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!61 &1053907534
 BoxCollider2D:
   m_ObjectHideFlags: 0

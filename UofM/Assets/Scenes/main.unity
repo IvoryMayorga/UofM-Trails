@@ -26900,7 +26900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 862426274}
   m_Layer: 0
-  m_Name: Building Name Bump
+  m_Name: 'Building Name '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45433,7 +45433,6 @@ GameObject:
   - component: {fileID: 1502275961}
   - component: {fileID: 1502275960}
   - component: {fileID: 1502275959}
-  - component: {fileID: 1502275962}
   m_Layer: 0
   m_Name: ExitToMenuButton
   m_TagString: Untagged
@@ -45556,18 +45555,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1502275957}
   m_CullTransparentMesh: 1
---- !u!114 &1502275962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502275957}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 409e5809d957b5e40863dab6abda60ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1504467973
 GameObject:
   m_ObjectHideFlags: 0
