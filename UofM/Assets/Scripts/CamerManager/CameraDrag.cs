@@ -6,7 +6,7 @@ using UnityEngine;
 public class CameraDrag : MonoBehaviour
 {
     [SerializeField]
-    private Camera mainCamera;
+    private Camera usedCamera;
     private Vector3 origin;
    
     [SerializeField]
@@ -23,16 +23,16 @@ public class CameraDrag : MonoBehaviour
     private void PanCamera()
     {
         if (Input.GetMouseButtonDown(0))
-            origin = mainCamera.ScreenToWorldPoint(Input.mousePosition);
+            origin = usedCamera.ScreenToWorldPoint(Input.mousePosition);
        
 
         if (Input.GetMouseButton(0))
         {
-            Vector3 difference = origin - mainCamera.ScreenToWorldPoint(Input.mousePosition);
+            Vector3 difference = origin - usedCamera.ScreenToWorldPoint(Input.mousePosition);
  
-            print("origin " + origin + " newPosition " + mainCamera.ScreenToWorldPoint(Input.mousePosition) + " difference "+ difference);
+            print("origin " + origin + " newPosition " + usedCamera.ScreenToWorldPoint(Input.mousePosition) + " difference "+ difference);
            
-            mainCamera.transform.position = ClampCamera(mainCamera.transform.position + difference);
+            usedCamera.transform.position = ClampCamera(usedCamera.transform.position + difference);
            
         }
 
@@ -41,8 +41,8 @@ public class CameraDrag : MonoBehaviour
    
     private Vector3 ClampCamera(Vector3 targetpos)
     {
-        float height = mainCamera.orthographicSize;
-        float width = height * mainCamera.aspect;
+        float height = usedCamera.orthographicSize;
+        float width = height * usedCamera.aspect;
 
         float minX = mapMinX + width;
         float maxX = mapMaxX- width;
