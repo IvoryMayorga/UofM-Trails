@@ -560,7 +560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddc9b4eecd5376a45a5fe0dc24d2facb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamera: {fileID: 363807465}
+  usedCamera: {fileID: 363807465}
   mapRend: {fileID: 1050221583}
 --- !u!114 &363807469
 MonoBehaviour:
