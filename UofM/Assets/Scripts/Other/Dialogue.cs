@@ -9,10 +9,13 @@ public class Dialogue : MonoBehaviour
     public TextMeshProUGUI textitem;
     public string[] lines;
     public float textSpeed;
+    public GameObject HideObjects;
+    public GameObject HideObjects2;
     private int index;
     // Start is called before the first frame update
     void Start()
     {
+        
         textitem.text = string.Empty;
         StartDialougue();
     }
@@ -59,6 +62,7 @@ public class Dialogue : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
+            HideObjects.SetActive(true); HideObjects2.SetActive(true);
         }
     }
 }

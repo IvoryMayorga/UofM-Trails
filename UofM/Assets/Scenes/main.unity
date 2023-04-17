@@ -1924,7 +1924,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://www.memphis.edu/music/admissions/musiccenter.php
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &41689657
@@ -4957,7 +4957,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/79/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &105663953
@@ -8382,7 +8382,7 @@ GameObject:
   m_Component:
   - component: {fileID: 174837398}
   - component: {fileID: 174837400}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Pouncer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8397,13 +8397,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 174837397}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -55.797302, y: 42.47986, z: 0.8031063}
+  m_LocalPosition: {x: -55.797302, y: 42.47986, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 475107393}
+  - {fileID: 844354641}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &174837400
 MonoBehaviour:
@@ -8423,11 +8423,15 @@ MonoBehaviour:
     Go! '
   - Come and Explore the Campus!
   - You can hover over a building to find out the name of it...
-  - Or you can walk up against it!
-  - Click the map icon to open the Map View.
-  - Click the red X button to return back to the main menu.
-  - Have fun exploring the campus Tiger! Go! Tigers Go!
+  - Or you can walk up to it!
+  - Click on the House and Magnifying glass icon to learn more!
+  - Click the map icon to open the Mini-Map View.
+  - When you are ready to leave click on the red X button to return back to the main
+    menu.
+  - Have fun exploring the campus ! Go Tigers Go!
   textSpeed: 0.07
+  HideObjects: {fileID: 780211798}
+  HideObjects2: {fileID: 862426273}
 --- !u!1 &184424753
 GameObject:
   m_ObjectHideFlags: 0
@@ -9574,7 +9578,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/30/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &211959472
@@ -11975,7 +11979,7 @@ GameObject:
   - component: {fileID: 242921373}
   - component: {fileID: 242921375}
   - component: {fileID: 242921374}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Pouncer Pic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13016,7 +13020,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/78/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &263752100
@@ -13435,11 +13439,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5023367603670164919, guid: a670d51ef0821d546a3f482c036630cc, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -5023367603670164919, guid: a670d51ef0821d546a3f482c036630cc, type: 3}
       propertyPath: m_SortingLayerID
-      value: -812731775
+      value: 2082392059
       objectReference: {fileID: 0}
     - target: {fileID: -4191790169016903782, guid: a670d51ef0821d546a3f482c036630cc, type: 3}
       propertyPath: m_SortingLayer
@@ -13539,7 +13543,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2667058616616894115, guid: a670d51ef0821d546a3f482c036630cc, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2667058616616894115, guid: a670d51ef0821d546a3f482c036630cc, type: 3}
       propertyPath: m_LocalScale.x
@@ -15596,7 +15600,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 313523241}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15611,14 +15615,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 313523240}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.987907, y: 7.771393, z: 4.7423363}
+  m_LocalPosition: {x: 7.987907, y: 7.771393, z: 4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2106080962}
   - {fileID: 82783876}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &314730703
 GameObject:
@@ -17802,7 +17806,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/EQ1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &376610677
@@ -18882,7 +18886,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/88/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &398588188
@@ -19741,7 +19745,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/EQ2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &410322445
@@ -20270,7 +20274,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/94/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &414162693
@@ -21154,7 +21158,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/80/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &439979695
@@ -21444,7 +21448,7 @@ GameObject:
   - component: {fileID: 445188204}
   - component: {fileID: 445188206}
   - component: {fileID: 445188205}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Message Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22264,7 +22268,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/7/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &458045788
@@ -23123,7 +23127,7 @@ GameObject:
   - component: {fileID: 475107396}
   - component: {fileID: 475107395}
   - component: {fileID: 475107394}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23137,20 +23141,20 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 475107392}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 830582171}
-  m_Father: {fileID: 174837398}
+  m_Father: {fileID: 844354641}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 960, y: 540}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &475107394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24423,7 +24427,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &519420033
 MonoBehaviour:
@@ -27677,7 +27681,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/EQ4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &580662769
@@ -28229,7 +28233,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/29/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &588981855
@@ -29804,7 +29808,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/59/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &625300636
@@ -32151,7 +32155,7 @@ GameObject:
   - component: {fileID: 674968193}
   - component: {fileID: 674968195}
   - component: {fileID: 674968194}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: X Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32428,7 +32432,7 @@ Transform:
   m_Children:
   - {fileID: 1367963794}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &683009376
 GameObject:
@@ -35836,7 +35840,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/107/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &757541091
@@ -36680,7 +36684,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &780211799
 Transform:
   m_ObjectHideFlags: 0
@@ -36779,7 +36783,7 @@ Transform:
   - {fileID: 632382207}
   - {fileID: 1739320140}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &781732160
 GameObject:
@@ -38949,7 +38953,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/89/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &825545039
@@ -39174,7 +39178,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 830582171}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39418,6 +39422,108 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841679411}
   m_CullTransparentMesh: 1
+--- !u!1 &844354640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 844354641}
+  - component: {fileID: 844354644}
+  - component: {fileID: 844354643}
+  - component: {fileID: 844354642}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &844354641
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844354640}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 475107393}
+  m_Father: {fileID: 174837398}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &844354642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844354640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &844354643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844354640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &844354644
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844354640}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &847328578
 GameObject:
   m_ObjectHideFlags: 0
@@ -39871,7 +39977,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &862426274
 Transform:
   m_ObjectHideFlags: 0
@@ -39980,7 +40086,7 @@ Transform:
   - {fileID: 2046752091}
   - {fileID: 396754180}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &867412321
 GameObject:
@@ -40320,7 +40426,7 @@ Transform:
   m_Children:
   - {fileID: 1029377309}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &876595504
 Animator:
@@ -46043,6 +46149,8 @@ MonoBehaviour:
   - 'Rumor has it she was the daughter of the U of M''s founding father. '
   - And she jumped to her death of the roof of this building.
   textSpeed: 0.06
+  HideObjects: {fileID: 780211798}
+  HideObjects2: {fileID: 862426273}
 --- !u!1 &1029892309
 GameObject:
   m_ObjectHideFlags: 0
@@ -47383,7 +47491,7 @@ GameObject:
   - component: {fileID: 1053185645}
   - component: {fileID: 1053185647}
   - component: {fileID: 1053185646}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47398,7 +47506,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053185644}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -47688,7 +47796,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/AC
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1057445414
@@ -47834,7 +47942,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/EQ5
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1062611961
@@ -48364,7 +48472,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/97/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1084505017
@@ -48780,7 +48888,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/87/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1089656825
@@ -49344,7 +49452,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/92/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1096507809
@@ -49841,7 +49949,7 @@ GameObject:
   - component: {fileID: 1106127948}
   - component: {fileID: 1106127950}
   - component: {fileID: 1106127949}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Pouncer Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50208,7 +50316,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/85/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1110424986
@@ -53138,7 +53246,7 @@ GameObject:
   - component: {fileID: 1191454121}
   - component: {fileID: 1191454123}
   - component: {fileID: 1191454122}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: MsgName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56352,7 +56460,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/90/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1301691758
@@ -57913,7 +58021,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/31/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1335904700
@@ -59046,7 +59154,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/135/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1361456512
@@ -62889,7 +62997,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1413631425
 MonoBehaviour:
@@ -64035,152 +64143,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &1434641167
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1434641168}
-  - component: {fileID: 1434641172}
-  - component: {fileID: 1434641171}
-  - component: {fileID: 1434641170}
-  - component: {fileID: 1434641169}
-  m_Layer: 0
-  m_Name: LearnButton
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1434641168
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1434641167}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1505199753}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 824, y: -62}
-  m_SizeDelta: {x: 197.1926, y: 137.3476}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1434641169
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1434641167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2697071de6d552340abe9e19fee6e2a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1434641170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1434641167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1434641171}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1335904698}
-        m_TargetAssemblyTypeName: OpenURL, Assembly-CSharp
-        m_MethodName: MapURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1434641171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1434641167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 60d678f5c9b8a374a9df8b8ba50da39b, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1434641172
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1434641167}
-  m_CullTransparentMesh: 1
 --- !u!1 &1434916859
 GameObject:
   m_ObjectHideFlags: 0
@@ -64286,7 +64248,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/91/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1434916863
@@ -65803,7 +65765,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/93/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1474034384
@@ -66363,7 +66325,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/EQ3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1481631263
@@ -66813,7 +66775,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/5/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1495506962
@@ -66865,7 +66827,7 @@ GameObject:
   - component: {fileID: 1496011286}
   - component: {fileID: 1496011288}
   - component: {fileID: 1496011287}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Space To Continue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67529,7 +67491,7 @@ GameObject:
   - component: {fileID: 1502275961}
   - component: {fileID: 1502275960}
   - component: {fileID: 1502275959}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ExitToMenuButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67544,7 +67506,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1502275957}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -20}
   m_LocalScale: {x: 0.9668617, y: 0.9668617, z: 0.9668617}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -67815,8 +67777,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1434641168}
+  m_Children: []
   m_Father: {fileID: 740950425}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -69855,7 +69816,7 @@ Transform:
   m_Children:
   - {fileID: 828898189}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1563106770
 GameObject:
@@ -71670,7 +71631,7 @@ GameObject:
   - component: {fileID: 1595125856}
   - component: {fileID: 1595125855}
   m_Layer: 0
-  m_Name: e9aff334719785.56db2594dafd9
+  m_Name: Lawn Mower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71761,7 +71722,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1595478468
 GameObject:
@@ -72098,7 +72059,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1628163791
 GameObject:
@@ -76546,7 +76507,7 @@ Transform:
   m_Children:
   - {fileID: 1378701767}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1732947754
 MonoBehaviour:
@@ -85402,7 +85363,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/52/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1918544030
@@ -85803,7 +85764,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/20/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1928745374
@@ -86982,7 +86943,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/34/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1949908463
@@ -91983,7 +91944,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/64/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2022064946
@@ -94003,7 +93964,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/14/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2074175438
@@ -94226,7 +94187,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/NH
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2078321284
@@ -95538,7 +95499,7 @@ GameObject:
   - component: {fileID: 2106080965}
   - component: {fileID: 2106080964}
   - component: {fileID: 2106080963}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: MenuCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96047,7 +96008,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://umwa.memphis.edu/campusmap/index.php/welcome/building/66/int
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2109058142
